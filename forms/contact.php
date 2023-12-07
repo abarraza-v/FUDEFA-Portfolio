@@ -12,7 +12,7 @@
   // Replace contact@example.com with your real receiving email address
 
   $direccion_email_receptora = 'abarraza.pk@gmail.com';
-
+    
   if (isset($_POST['enviar'])) {
     if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) { 
       $nombre = $_POST['nombre'];
@@ -24,7 +24,9 @@
       $encabezado .= "Reply-To: " . $direccion_email_receptora . "\r\n";
       $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
-      
+      ini_set( 'display_errors', 1 );
+      error_reporting( E_ALL );
+    
       $mail = mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
       if ($mail) {
         echo('<div class="sent-message d-block">Mensaje Enviado</div>');
