@@ -639,7 +639,7 @@
               </div>
               <div class="my-3">
                 <?php
-                  include("forms/contact.php");
+                  include 'forms/contact.php';
                 ?>
                 <div class="loading">Cargando...</div>
                 <div class="error-message"></div>
