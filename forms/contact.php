@@ -22,7 +22,7 @@
       $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
       
-      $mail = @mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
+      $mail = mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
       if ($mail) {
         echo('<div class="sent-message d-block">Mensaje Enviado</div>');
       }

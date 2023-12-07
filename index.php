@@ -620,7 +620,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" class="form-control" name="nombre" id="name" placeholder="Ingrese su nombre"
@@ -638,39 +638,39 @@
                 <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
-<?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+                  <?php
+                    /**
+                    * Requires the "PHP Email Form" library
+                    * The "PHP Email Form" library is available only in the pro version of the template
+                    * The library should be uploaded to: vendor/php-email-form/php-email-form.php
+                    * For more info and help: https://bootstrapmade.com/php-email-form/
+                    */
 
-  // Replace contact@example.com with your real receiving email address
+                    // Replace contact@example.com with your real receiving email address
 
-  $direccion_email_receptora = 'abarraza.pk@gmail.com';
+                    $direccion_email_receptora = 'abarraza.pk@gmail.com';
 
-  if (isset($_POST['enviar'])) {
-    if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) { 
-      $nombre = $_POST['nombre'];
-      $email = $_POST['email'];
-      $asunto = $_POST['asunto'];
-      $mensaje = $_POST['mensaje'];
-      
-      $encabezado = "From: " . $email .  "\r\n";
-      $encabezado .= "Reply-To: " . $direccion_email_receptora . "\r\n";
-      $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+                    if (isset($_POST['enviar'])) {
+                      if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) { 
+                        $nombre = $_POST['nombre'];
+                        $email = $_POST['email'];
+                        $asunto = $_POST['asunto'];
+                        $mensaje = $_POST['mensaje'];
+                        
+                        $encabezado = "From: " . $email .  "\r\n";
+                        $encabezado .= "Reply-To: " . $direccion_email_receptora . "\r\n";
+                        $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
-      
-      $mail = @mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
-      if ($mail) {
-        echo('<div class="sent-message d-block">Mensaje Enviado</div>');
-      }
-    }
-  }
+                        
+                        $mail = @mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
+                        if ($mail) {
+                          echo('<div class="sent-message d-block">Mensaje Enviado</div>');
+                        }
+                      }
+                    }
 
 
-?>
+                  ?>
                 <div class="loading">Cargando...</div>
                 <div class="error-message"></div>
               </div>
@@ -761,7 +761,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
