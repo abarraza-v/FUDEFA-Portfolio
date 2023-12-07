@@ -36,6 +36,10 @@ a:hover {
   color: #e4e3e3;
 }
 
+.text-blue {
+  color: #0056b3;
+}
+
 .brand-font {
   font-family: "Luckiest Guy", cursive;
 }
@@ -735,6 +739,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.services-VR {
+  background: url("../img/cube-bg.jpg") center center no-repeat;
+  background-size: cover;
+  min-width: 100vh;
+}
+
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
@@ -746,7 +756,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
   margin-bottom: 0;
 }
