@@ -1,35 +1,26 @@
 <?php
 
-  echo("Conexión con php correcta.");
-  echo(" Versión de PHP: ". phpversion());
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
-
-  // Replace contact@example.com with your real receiving email address
-
+  # Dirección de email que recibirá los correos enviados
   $direccion_email_receptora = 'abarraza.pk@gmail.com';
-    
+  
+  # Verificamos si se apretó el botón enviar, luego verificamos si están vacíos los campos enviados.
   if (isset($_POST['enviar'])) {
-    if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) { 
+    if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) {
+      
+      # Asignamos los valores de los campos a variables.
       $nombre = $_POST['nombre'];
       $email = $_POST['email'];
       $asunto = $_POST['asunto'];
       $mensaje = $_POST['mensaje'];
       
-      $encabezado = "From: " . $email .  "\r\n";
-      $encabezado .= "Reply-To: " . $direccion_email_receptora . "\r\n";
-      $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+      # Enviamos todo a la función mail, la cuál enviará el mail.
+      $mail = mail($direccion_email_receptora, $asunto, $mensaje);
 
-      ini_set( 'display_errors', 1 );
-      error_reporting( E_ALL );
-    
-      $mail = mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
+      # Si mail retornó true, mostramos un mensaje de éxito.
       if ($mail) {
         echo('<div class="sent-message d-block">Mensaje Enviado</div>');
+      } else {
+        echo('<div class="error-message d-block">Error: Algo salió mal</div>');
       }
     }
   }

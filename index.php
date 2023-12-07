@@ -620,7 +620,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" class="form-control" name="nombre" id="name" placeholder="Ingrese su nombre"
@@ -645,7 +645,7 @@
               <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
             <?php
-              include 'forms/contact.php'    
+              include 'forms/contact.php';
             ?>
           </div>
 
