@@ -7,35 +7,27 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+  $direccion_email_receptora = 'abarraza.pk@gmail.com';
+
+  if (isset($_POST['enviar'])) {
+    if (!empty($_POST['nombre']) and !empty($_POST['email']) and !empty($_POST['asunto']) and !empty($_POST['mensaje'])) { 
+      $nombre = $_POST['nombre'];
+      $email = $_POST['email'];
+      $asunto = $_POST['asunto'];
+      $mensaje = $_POST['mensaje'];
+      
+      $encabezado = "From: " . $email .  "\r\n";
+      $encabezado .= "Reply-To: " . $direccion_email_receptora . "\r\n";
+      $encabezado .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+
+      
+      $mail = @mail($direccion_email_receptora, $asunto, $mensaje, $encabezado);
+      if ($mail) {
+        echo('<div class="sent-message d-block">Mensaje Enviado</div>');
+      }
+    }
   }
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
-
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
 ?>
