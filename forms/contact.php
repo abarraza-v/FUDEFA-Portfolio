@@ -1,4 +1,7 @@
 <?php
+
+  echo("Conexión con php correcta.");
+  echo(" Versión de PHP: ". phpversion());
   /**
   * Requires the "PHP Email Form" library
   * The "PHP Email Form" library is available only in the pro version of the template
