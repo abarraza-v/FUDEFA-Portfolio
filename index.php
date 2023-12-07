@@ -638,7 +638,13 @@
                 <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
-                  <?php
+                <div class="loading">Cargando...</div>
+                <div class="error-message"></div>
+              </div>
+              <input type="hidden" name="enviar" value="">
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+            <?php
                     /**
                     * Requires the "PHP Email Form" library
                     * The "PHP Email Form" library is available only in the pro version of the template
@@ -671,12 +677,6 @@
 
 
                   ?>
-                <div class="loading">Cargando...</div>
-                <div class="error-message"></div>
-              </div>
-              <input type="hidden" name="enviar" value="">
-              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
-            </form>
           </div>
 
         </div>
