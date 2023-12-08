@@ -748,6 +748,24 @@ section {
   z-index: 1;
 }
 
+.services .icon-box::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: #f08404;
+  top: 0;
+  border-radius: 0px;
+}
+
 .services .icon {
   margin-bottom: 15px;
 }
