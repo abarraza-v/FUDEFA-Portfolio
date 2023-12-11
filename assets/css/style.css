@@ -723,7 +723,6 @@ section {
 .services {
   background: url("../img/cube-bg.svg") center center no-repeat;
   background-size: cover;
-  min-width: 110vh;
   padding: 0px 0px 30px 0px;
 }
 
