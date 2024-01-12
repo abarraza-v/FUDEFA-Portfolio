@@ -24,6 +24,27 @@ a:hover {
   text-decoration: none;
 }
 
+.bg-vr {
+  background: url("../img/cube-bg.svg") center center no-repeat;
+  background-size: cover;
+}
+
+.spacer {
+  aspect-ratio: 1920/200;
+  width: 100%;
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../img/layerwave.svg");
+}
+
+.layer2 {
+  background-image: url("../img/layer2.svg");
+}
+
 .dark-transparent {
   background: rgba(27, 27, 27, 0.8);
 }
@@ -34,6 +55,10 @@ a:hover {
 
 .text-silver {
   color: #e4e3e3;
+}
+
+.text-blue {
+  color: #0056b3;
 }
 
 .brand-font {
@@ -695,6 +720,22 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background: url("../img/cube-bg.svg") center center no-repeat;
+  background-size: cover;
+  padding: 0px 0px 30px 0px;
+}
+
+.services__title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+}
+
+.services-VR {
+  padding: 0;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -731,13 +772,13 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #f08404;
+  color: #0056b3;
   transition: all 0.3s ease-in-out;
 }
 
 .services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-top: 15px;
   font-size: 18px;
 }
 
@@ -746,7 +787,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
   margin-bottom: 0;
 }
