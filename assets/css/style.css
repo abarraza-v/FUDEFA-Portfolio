@@ -971,7 +971,7 @@ section {
   text-align: center;
   background: rgba(255, 115, 22, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -987,11 +987,11 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
+  opacity: 0.5;
   bottom: 0;
 }
 
