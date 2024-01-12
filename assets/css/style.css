@@ -32,7 +32,7 @@ a:hover {
 .spacer {
   aspect-ratio: 1920/200;
   width: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no repeat;
   background-position: center;
   background-size: cover;
 }
@@ -45,20 +45,12 @@ a:hover {
   background-image: url("../img/layer2.svg");
 }
 
-.layer3 {
-  background-image: url("../img/layer3.svg");
-}
-
 .dark-transparent {
   background: rgba(27, 27, 27, 0.8);
 }
 
 .text-orange {
   color: #f08404;
-}
-
-.text-purple {
-  color: #800080;
 }
 
 .text-silver {
@@ -724,6 +716,10 @@ section {
   .about {
     text-align: center;
   }
+
+  .about .content {
+    padding: 4px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -732,7 +728,13 @@ section {
 .services {
   background: url("../img/cube-bg.svg") center center no-repeat;
   background-size: cover;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 30px 0px;
+}
+
+.services__title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
 }
 
 .services-VR {
@@ -790,8 +792,8 @@ section {
 }
 
 .services .description {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   margin-bottom: 0;
 }
 
@@ -859,7 +861,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(53, 51, 50, 0.8), rgba(58, 53, 48, 0.8)),
+  background: linear-gradient(rgba(255, 159, 81, 0.8), rgba(255, 159, 81, 0.8)),
     url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
@@ -971,7 +973,7 @@ section {
   text-align: center;
   background: rgba(255, 115, 22, 0.75);
   transition: 0.3s;
-  width: 100%;
+  width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -987,21 +989,17 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 0.5;
+  opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.mobileonly {
-  display: none;
-}
-
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1529,11 +1527,5 @@ section {
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .mobileonly {
-    display: block;
   }
 }
