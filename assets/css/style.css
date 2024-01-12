@@ -998,6 +998,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.mobileonly {
+  display: none;
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1525,5 +1529,11 @@ section {
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mobileonly {
+    display: block;
   }
 }
