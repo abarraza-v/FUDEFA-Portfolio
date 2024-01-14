@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.svg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fontawesome Icons -->
@@ -53,10 +53,8 @@
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html">FU<span class="text-orange">DE</span>FU</a>
-        </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.php"><img src="assets/img/logofudefu.png" alt=""></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -128,7 +126,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up">
-      <h1>Bienvenido a <span class="brand-font"> FU<span class="text-orange">DE</span>FU</span></h1>
+      <h1>Bienvenido a   <img src="assets/img/logofudefu.png" class="img-fluid"></h1>
       <h2><span class="text-silver">"Comprometidos con el progreso y el bienestar comunitario."</span></h2>
       <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
