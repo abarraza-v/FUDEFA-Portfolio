@@ -54,7 +54,7 @@
 
       <div class="logo">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php"><img src="assets/img/logofudefu.png" alt=""></a>
+        <a href="index.php"><img src="assets/img/logofudefu.png" alt="" class="p-2"></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -126,7 +126,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up">
-      <h1>Bienvenido a   <img src="assets/img/logofudefu.png" class="img-fluid"></h1>
+      <img src="assets/img/logofudefu.png" class="img-fluid">
       <h2><span class="text-silver">"Comprometidos con el progreso y el bienestar comunitario."</span></h2>
       <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
@@ -647,9 +647,10 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3 class="text-white"><span class="text-bg-dark brand-font px-2 rounded-1"> FU<span
-                    class="text-orange">DE</span>FU</span>
-              </h3>
+              <div class="img-container bg-dark rounded-3 p-2">
+                <img src="assets/img/logofudefu.png" class="img-fluid" alt="">
+              </div>
+              
               <p class="pb-3"><em>"Comprometidos con el progreso y el bienestar comunitario."</em>
               </p>
               <p>
@@ -689,7 +690,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Fudefu</span></strong>. Todos los derechos reservados.
+        &copy; Copyright <strong><span>FUDEFU</span></strong>. Todos los derechos reservados.
       </div>
       <div class="credits">
         Desarrollado por Alejandro Barraza
