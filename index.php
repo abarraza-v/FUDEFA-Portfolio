@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 
+
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -140,29 +142,32 @@
 
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="content">
-              <h3>Sobre nosotros</h3>
+            <div class="content p-sm-4">
+              <h3 class="about__title">Sobre nosotros</h3>
               <p>
-                Nos especializamos en <strong>respaldar</strong> a organizaciones sociales en la
-                <strong>conceptualización,
-                  presentación y
-                  ejecución</strong> de proyectos comunitarios. Además, <strong>impulsamos iniciativas
-                  emprendedoras</strong> y
-                <strong>fomentamos el
-                  turismo regional</strong>, con un enfoque especial en <strong>proyectos turísticos culturales y
-                  patrimoniales</strong>
-                que
-                incorporan <strong>tecnologías inmersivas.</strong>
+                Somos una fundación sin fines de lucro especializada en respaldar a <strong>organizaciones
+                  sociales</strong> (juntas vecinales, clubes, etc) en <strong>todo el proceso</strong> de
+                realizar <strong>proyectos comunitarios</strong> de una manera dinámica y transparente.
               </p>
             </div>
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="fa-solid fa-book"></i>
+                  <h4>Facilitamos a organizaciones sociales el acceso a recursos y conocimientos</h4>
+                  <p>para la formulación de proyectos comunitarios efectivos.</p>
+                </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="fa-regular fa-hand-back-fist"></i>
                   <h4>Fomentamos el espíritu emprendedor</h4>
                   <p>apoyando iniciativas innovadoras que contribuyan al desarrollo local.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="fa-regular fa-handshake"></i>
+                  <h4>Promovemos la participación ciudadana y la colaboración entre sectores</h4>
+                  <p>para fortalecer el tejido social y la sostenibilidad a largo plazo.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-world"></i>
@@ -170,16 +175,7 @@
                   <p>mediante proyectos que destaquen la riqueza cultural y patrimonial con <strong>tecnologías
                       inmersivas.</strong></p>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="fa-solid fa-book"></i>
-                  <h4>Facilitamos a organizaciones sociales el acceso a recursos y conocimientos</h4>
-                  <p>para la formulación de proyectos comunitarios efectivos.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="fa-regular fa-handshake"></i>
-                  <h4>Promovemos la participación ciudadana y la colaboración entre sectores</h4>
-                  <p>para fortalecer el tejido social y la sostenibilidad a largo plazo.</p>
-                </div>
+
               </div>
             </div><!-- End .content-->
           </div>
@@ -190,87 +186,153 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-      <div class="container">
+      <div class="spacer layer2"></div>
+      <div class="section-title mt-5" data-aos="fade-in" data-aos-delay="100">
+        <h3>Nuestros <strong>Servicios</h3>
+      </div>
 
-        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Servicios</h2>
-          <p>Sabemos que <strong>necesitas</strong> que tu emprendimiento o empresa sea <strong>líder</strong> en el
-            impulso del
-            desarrollo
-            comunitario con enfoques creativos y sostenibles. Por eso, te ayudamos con los siguientes servicios:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up">
-              <div class="icon"><i class='bx bx-conversation'></i></div>
-              <h4 class="title"><a href="">Asesoría a tu emprendimiento o empresa.</a></h4>
-              <p class="description">Ofrecemos un programa de <strong>impulso</strong> para emprendimientos sociales y
-                ambientales,
-                proporcionando los <strong>recursos necesarios</strong> y <strong>asesoría</strong> para ayudar a estos
-                proyectos a <strong>crecer</strong> y tener un <strong>impacto</strong> positivo en
-                la comunidad.</p>
+      <section id="services-VR" class="services-VR">
+        <div class="container mb-5">
+          <div class="card mb-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-12 col-lg-4 justify-content-center align-content-center d-flex mb-lg-0">
+                <img src="assets/img/asesoria.jpeg" class="img-fluid" alt="imagendereferencia">
+              </div>
+              <div class="col-sm-12 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="card-body align-self-center fw-semibold">
+                  <h3 class="mb-2 title--hover-effect">
+                    <strong>Asesoría a <span class="text-warning">Organizaciones Sociales</span></strong>
+                  </h3>
+                  <p class="description">Te ayudamos a que no te pierdas ningún
+                    beneficio. A lo largo del año hay muchos fondos por los cuales te puedes beneficiar (Fondo
+                    Presidente de la República, 8% FNDR, FONDEPORTE, FONDEVE, ETC). Te asesoraremos en el proceso de
+                    manera dinámica y transparente.
+                  </p>
+                  <!-- <a href="#portfolio" class="btn-get-started scrollto" data-aos="fade-in" data-aos-delay="100"><i
+                      class="bx bx-chevrons-down"></i>¡Ve nuestros Proyectos Destacados!<i
+                      class="bx bx-chevrons-down"></i></a> -->
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-headset-vr"></i></div>
-              <h4 class="title"><a href="">Implementación de Tecnologías Innovadoras</a></h4>
-              <p class="description">Te ayudamos a que tu emprendimiento <strong>destaque</strong> mediante la
-                implementación de tecnologías innovadoras como la <Strong>Realidad Virtual <i
-                    class="bi bi-badge-vr"></i></Strong> con <strong>Tours Inmersivos</strong> que
-                benefician la
-                preservación del patrimonio, permitiendo a las comunidades dar a conocer su patrimonio cultural.</p>
+          <div class="card mb-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-12 col-lg-4 justify-content-center align-content-center d-flex mb-lg-0">
+                <img src="assets/img/innovacion.jpeg" class="img-fluid" alt="imagendereferencia">
+              </div>
+              <div class="col-sm-12 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="card-body align-self-center fw-semibold">
+                  <h3 class="mb-2 title--hover-effect">
+                    <strong>Implementación
+                      de <span class="text-blue">Tecnología
+                        Innovadora</strong></span>
+                  </h3>
+                  <p class="description">Te ayudamos a que tu organización
+                    social
+                    <strong>destaque</strong> mediante la
+                    implementación de tecnologías innovadoras como cámaras de seguridad y alarmas con energía
+                    <strong>solar</strong>, tours inmersivos realizados con <Strong>Realidad Virtual <i
+                        class="bi bi-badge-vr"></i></Strong> , páginas web, aplicaciones móviles, entre otros.
+                  </p>
+                  <!-- <a href="#portfolio" class="btn-get-started scrollto" data-aos="fade-in" data-aos-delay="100"><i
+                      class="bx bx-chevrons-down"></i>¡Ve nuestros Proyectos Destacados!<i
+                      class="bx bx-chevrons-down"></i></a> -->
+                </div>
+              </div>
             </div>
           </div>
-
-
+          <div class="card mb-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-12 col-lg-4 justify-content-center align-content-center d-flex mb-lg-0">
+                <img src="assets/img/talleres.jpeg" class="img-fluid" alt="imagendereferencia">
+              </div>
+              <div class="col-sm-12 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="card-body align-self-center fw-semibold">
+                  <h3 class="mb-2 title--hover-effect">
+                    <strong>Talleres <span class="text-purple">Comunitarios</span></strong>
+                  </h3>
+                  <p class="description">Organización de talleres dirigidos por
+                    profesionales de distintas areas sobre temas variados, como alfabetización digital, comunicación,
+                    impresión 3D, programación, seguridad y leyes, deportes, entre otros. Nuestro objetivo es promover
+                    el
+                    aprendizaje, la
+                    participación y el desarrollo de las personas y sus comunidades
+                  </p>
+                  <!-- <a href="#portfolio" class="btn-get-started scrollto"><i
+                      class="bx bx-chevrons-down"></i>¡Ve nuestros Proyectos Destacados!<i
+                      class="bx bx-chevrons-down"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-12 col-lg-4 justify-content-center align-content-center d-flex mb-lg-0">
+                <img src="assets/img/eventos.jpeg" class="img-fluid" alt="lentesderealidadvirtual">
+              </div>
+              <div class="col-sm-12 col-lg-8 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="card-body align-self-center fw-semibold">
+                  <h3 class="mb-2 title--hover-effect">
+                    <strong>Ejecución de <span class="text-danger">Eventos</span></strong>
+                  </h3>
+                  <p class="description">Planificamos eventos sobre temas
+                    variados, como deporte y cultura para tu comunidad, el único límite es tu imaginación.
+                  </p>
+                  <!-- <a href="#portfolio" class="btn-get-started scrollto"><i
+                      class="bx bx-chevrons-down"></i>¡Ve nuestros Proyectos Destacados!<i
+                      class="bx bx-chevrons-down"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-center" data-aos="fade-up">
+            <a href="#portfolio" class="btn btn-danger rounded-start-5 rounded-end-5">¡Ve nuestros
+              Proyectos
+              Destacados!</a>
+          </div>
 
         </div>
+
+
+
+      </section>
+
 
       </div>
+      <div class="spacer layer3"></div>
     </section><!-- End Services Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts  section-bg">
+    <section id="counts" class="counts section-bg">
+
       <div class="container">
 
         <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+          <div class="col-lg-4 col-md-12 d-md-flex align-items-md-stretch">
             <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
+              <i class="bi bi-emoji-smile"> +</i>
               <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+              <p><strong>Organizaciones Sociales</strong> beneficiadas por nuestros servicios.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Proyectos Sociales</strong> que fueron un éxito.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-people"> +</i>
+              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Personas</strong> beneficiadas de nuestros proyectos.</p>
             </div>
           </div>
 
@@ -284,9 +346,8 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Te ayudamos a tomar ese <strong>impulso</strong></h3>
-          <p> Innovar puede aumentar tus ingresos; Con nuestra ayuda, tu empresa puede destacar, atraer
-            más clientes y mejorar su rentabilidad. ¡No esperes más, trabajemos juntos!</p>
+          <h3>Nos adecuamos a <strong>tus necesidades</strong></h3>
+          <p>Nuestra prioridad es nuestro cliente.</p>
           <a class="cta-btn" href="#contact">¡Contáctanos!</a>
         </div>
 
@@ -306,113 +367,49 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-app">Turismo</li>
-              <li data-filter=".filter-card">Asesoría</li>
+              <li data-filter=".filter-seguridad">Seguridad</li>
+              <li data-filter=".filter-cultura">Cultura</li>
+              <li data-filter=".filter-deporte">Deporte</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/thumbnailproyecto1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/thumbnailproyecto1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Museo Interactivo 7 de Junio en Arica"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cultura">
+            <a href="proyecto1.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto1.jpg" class="img-fluid" alt="miniaturaproyecto1">
               </div>
+            </a>
+            <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+              <a href="proyecto1.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
             </div>
+
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-seguridad">
+            <a href="proyecto2.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto2.jpg" class="img-fluid" alt="miniaturaproyecto1">
               </div>
-            </div>
+              <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+                <a href="proyecto2.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
+              </div>
+            </a>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-deporte">
+            <a href="proyecto3.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto3.jpg" class="img-fluid" alt="miniaturaproyecto1">
               </div>
-            </div>
+              <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+                <a href="proyecto3.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
+              </div>
+            </a>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
 
         </div>
 
@@ -581,31 +578,25 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contacto</h2>
+          <h2>Cuéntanos sobre tu proyecto</h2>
         </div>
 
         <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Nuestras Oficinas</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6">
+
+          <div class="col-lg-6 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Mándanos un email</h3>
-              <p>contact@example.com</p>
+              <p>contact@fudefu.cl</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Llámanos</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+56 9 8277 7329</p>
             </div>
           </div>
 
@@ -613,14 +604,8 @@
 
         <div class="row">
 
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-              frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form method="post" role="form" class="php-email-form">
+          <div class="col-lg-12">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" class="form-control" name="nombre" id="name" placeholder="Ingrese su nombre"
@@ -670,17 +655,12 @@
               <p class="pb-3"><em>"Comprometidos con el progreso y el bienestar comunitario."</em>
               </p>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Fono:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Fono:</strong> +56 9 8277 7329<br>
+                <strong>Email:</strong> contacto@fudefu.cl<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/museointer.7dejunio?igshid=NGVhN2U2NjQ0Yg%3D%3D"
+                  class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -691,16 +671,18 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre Nosotros</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Términos de Servicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Política de Privacidad</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Proyectos</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Asesoría a tu emprendimiento</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Implementación de Tecnología</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Asesoría a Organizaciones Sociales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Implementación de Tecnologías Innovadoras</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Talleres Comunitarios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Ejecución de Eventos</a></li>
             </ul>
           </div>
         </div>
@@ -712,11 +694,7 @@
         &copy; Copyright <strong><span>Fudefu</span></strong>. Todos los derechos reservados.
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Desarrollado por Alejandro Barraza
       </div>
     </div>
   </footer><!-- End Footer -->
