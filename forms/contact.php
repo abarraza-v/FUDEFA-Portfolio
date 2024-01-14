@@ -1,7 +1,7 @@
 <?php
 
   # Dirección de email que recibirá los correos enviados
-  $direccion_email_receptora = 'abarraza.pk@gmail.com';
+  $direccion_email_receptora = 'contacto@fudefu.cl';
   
   # Verificamos si se apretó el botón enviar, luego verificamos si están vacíos los campos enviados.
   if (isset($_POST['enviar'])) {
