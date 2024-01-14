@@ -116,6 +116,15 @@
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
+      // Selecciona todos los elementos con la clase 'nav-link'
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    // Itera sobre la NodeList y quita la clase 'link-light'
+    navLinks.forEach(link => {
+      link.classList.remove('link-light');
+    });
+
+
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
