@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.svg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.svg" rel="apple-touch-icon">
 
   <!-- Fontawesome Icons -->
   <script src="https://kit.fontawesome.com/08e96e1955.js" crossorigin="anonymous"></script>
