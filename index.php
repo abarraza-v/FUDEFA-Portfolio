@@ -352,7 +352,6 @@
       </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
@@ -367,6 +366,7 @@
               <li data-filter="*" class="filter-active">Todos</li>
               <li data-filter=".filter-seguridad">Seguridad</li>
               <li data-filter=".filter-cultura">Cultura</li>
+              <li data-filter=".filter-adultomayor">Adulto Mayor</li>
               <li data-filter=".filter-deporte">Deporte</li>
             </ul>
           </div>
@@ -408,6 +408,39 @@
             </a>
           </div>
 
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-adultomayor">
+            <a href="proyecto4.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto4.jpg" class="img-fluid" alt="miniaturaproyecto1">
+              </div>
+              <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+                <a href="proyecto4.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-adultomayor">
+            <a href="proyecto5.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto5.jpg" class="img-fluid" alt="miniaturaproyecto1">
+              </div>
+              <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+                <a href="proyecto5.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-seguridad filter-adultomayor">
+            <a href="proyecto6.html" title="More Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/thumbnailproyecto6.jpg" class="img-fluid" alt="miniaturaproyecto1">
+              </div>
+              <div class="container-fluid d-flex justify-content-center mt-3 mobileonly" data-aos="fade-in">
+                <a href="proyecto6.html" class="btn btn-warning text-white mobileonly">Más Detalles</a>
+              </div>
+            </a>
+          </div>
 
         </div>
 
