@@ -100,22 +100,22 @@
           <div class="col-xl-7 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="fa-solid fa-book"></i>
                   <h4>Facilitamos a organizaciones sociales el acceso a recursos y conocimientos</h4>
                   <p>para la formulación de proyectos comunitarios efectivos.</p>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="fa-regular fa-hand-back-fist"></i>
                   <h4>Fomentamos el espíritu emprendedor</h4>
                   <p>apoyando iniciativas innovadoras que contribuyan al desarrollo local.</p>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i class="fa-regular fa-handshake"></i>
                   <h4>Promovemos la participación ciudadana y la colaboración entre sectores</h4>
                   <p>para fortalecer el tejido social y la sostenibilidad a largo plazo.</p>
                 </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                   <i class="bx bx-world"></i>
                   <h4>Impulsamos el turismo regional</h4>
                   <p>mediante proyectos que destaquen la riqueza cultural y patrimonial con <strong>tecnologías
