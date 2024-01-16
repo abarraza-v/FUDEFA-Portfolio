@@ -266,8 +266,8 @@
 
           <div class="col-lg-4 col-md-12 d-md-flex align-items-md-stretch">
             <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
+              <i class="bi bi-journal-richtext"> +</i>
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
                 class="purecounter"></span>
               <p><strong>Proyectos Sociales</strong> que fueron un éxito.</p>
             </div>
